@@ -1,6 +1,5 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:task_manager/UI/Screens/OTP_verification_screen.dart';
 import 'package:task_manager/UI/Screens/login_screen.dart';
 import 'package:task_manager/UI/Screens/signUp_sreen.dart';
 import 'package:task_manager/UI/weidgets/screen_background.dart';
