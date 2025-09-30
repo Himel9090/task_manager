@@ -18,7 +18,7 @@ class _SplashscreenState extends State<Splashscreen> {
 
   Future<void> _movetonextscreen() async {
     await Future.delayed(Duration(seconds: 3));
-    Navigator.pushNamed(context, '/login' as String);
+    Navigator.pushNamed(context, '/login');
   }
 
   @override
