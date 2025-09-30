@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:task_manager/UI/Screens/login_screen.dart';
 import 'package:task_manager/UI/utilitis/assets_path.dart';
 import 'package:task_manager/UI/weidgets/screen_background.dart';
 
@@ -19,7 +18,7 @@ class _SplashscreenState extends State<Splashscreen> {
 
   Future<void> _movetonextscreen() async {
     await Future.delayed(Duration(seconds: 3));
-    Navigator.push(context, MaterialPageRoute(builder: (_) => LoginScreen()));
+    Navigator.pushNamed(context, '/login' as String);
   }
 
   @override

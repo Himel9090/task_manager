@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:task_manager/UI/weidgets/Task_card.dart';
-import 'package:task_manager/UI/weidgets/task_count_by_statuscard.dart';
 
 class Progresstaskscreen extends StatefulWidget {
   const Progresstaskscreen({super.key});
